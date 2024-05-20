@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 }
+
+#ladde {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 5px;
+  border: 1px solid hsla(214, 3%, 53%, 0.3);
+  border-radius: 1px;
+  background: hsla(214, 3%, 53%, 0.1);
+}
+#ladde:hover {
+  cursor: pointer;
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: hsla(214, 3%, 53%, 0.3);
+}
